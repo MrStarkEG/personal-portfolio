@@ -1,0 +1,46 @@
+/* STATIC_URL = '/staticfiles/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'staticfiles')
+] */
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#adaaaa47 !important;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+#profile-wrapper{
+    text-align: center;
+}
+
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: right;
+    margin: 0 auto;
+}
+
+ul{
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
